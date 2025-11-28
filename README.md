@@ -30,7 +30,7 @@ zomato_clone/
  └── README.md
 ```
 
-## 🧠 Interview Explanation
+## 🧠 
 - Built full-stack Zomato-like UI.
 - React + TypeScript + Vite frontend.
 - Express backend with REST API.
