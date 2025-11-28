@@ -19,9 +19,9 @@ type Restaurant = {
 const Home: React.FC = () => {
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [query, setQuery] = useState('');
-  const [onlyVeg, setOnlyVeg] = useState(false);
-  const [minRating, setMinRating] = useState(0);
-  const [sortBy, setSortBy] = useState<'rating' | 'price' | 'time' | ''>('');
+  const [onlyVeg] = useState(false);
+  const [minRating] = useState(0);
+  const [sortBy] = useState<'rating' | 'price' | 'time' | ''>('');
   const [loading, setLoading] = useState(false);
 
   const fetchRestaurants = async () => {
